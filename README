@@ -1,0 +1,8 @@
+на Bluegene:
+компиляция: mpicc mm_mult_fox.c -lm
+запуск через: mpisubmit.bg
+
+
+на Polus:
+компиляция: mpicc mm_mult_fox.c
+запуск через: mpisubmit.pl
