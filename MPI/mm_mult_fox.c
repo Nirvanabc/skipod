@@ -1,10 +1,5 @@
 /*
 ********************************************************************* 
-                 C-DAC Tech Workshop : hyPack-2013
-                        Oct 15-18,2013
-
-  Example 5.11        :	mm_mult_fox.c
-
   Objective           : Matrix Matrix multiplication
 			(Using Cartesian Topology)
 
@@ -12,8 +7,6 @@
                         and (mdata2.inp) for second input matrix. 
 
   Output              : Result of matrix matrix multiplication on process 0.
-
-  Created     	    : MAY-2012    
 
   Necessary Condition : Number of Processes should be less than
                         or equal to 8. Matrix size for Matrices A and 
@@ -29,6 +22,8 @@
 #include <string.h>
 #include "mpi.h"
 #include "cart.h"
+
+#define SIZE 1024
 
 /* Communication block set up for mesh toplogy */
 void SetUp_Mesh(MESH_INFO_TYPE *);
